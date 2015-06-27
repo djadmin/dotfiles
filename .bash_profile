@@ -14,7 +14,8 @@ alias .5='cd ../../../../../'
 alias .6='cd ../../../../../../'
 alias cls='clear'
 alias edit='subl'							# Opens sublime editor
-alias f='open -a Finder ./'                 # Opens current directory in MacOS Finder
+alias folder='open -a Finder ./'                 # Opens current directory in MacOS Finder
+alias skype='sudo /Applications/Skype.app/Contents/MacOS/Skype'		# Opens another instance of Skype : Useful for multiple accounts
 
 #Set Tab Title as Current Folder Name
 export PROMPT_COMMAND='echo -ne "\033]0; ${PWD##*/}\007"'
