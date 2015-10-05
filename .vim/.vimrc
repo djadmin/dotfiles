@@ -1,3 +1,4 @@
+colorscheme monokai
 set nu
 set ignorecase
 set ai
