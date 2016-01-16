@@ -1,1 +1,5 @@
-/Users/wingify/Library/Application Support/Sublime Text 3/Packages/User/Default (OSX).sublime-keymap
+[
+	// paste with indent :: swap the keybindings for paste and paste_and_indent
+	{ "keys": ["super+v"], "command": "paste_and_indent" },
+	{ "keys": ["super+shift+v"], "command": "paste" }
+]
